@@ -47,7 +47,7 @@ jobs:
               echo "Repository belum di-clone. Cloning...";
               mkdir -p ~/senpro/542230/modul02;
               cd ~/senpro/542230/modul02;
-              git clone <<LINK_REPOSITORY_FORK>>;
+              git clone https://github.com/AkioAfif/senpro-github-action.git
               cd ~/senpro/542230/modul02/senpro-github-action;
               echo "Install Package dan Build Project";
               npm install;
@@ -62,3 +62,6 @@ jobs:
               npm install;
               npm run build;
             }
+
+
+      
